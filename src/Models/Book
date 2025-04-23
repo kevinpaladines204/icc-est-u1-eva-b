@@ -1,0 +1,33 @@
+package models
+
+public class book{
+    private String name;
+    private int year;
+    
+    public Book(String name, int year){
+        this.name=name;
+        this.year=year;
+    }
+
+    @Override
+    public String toString(){
+        return name + "-" + year;
+    }
+
+    public String getName(){
+        retrun name;
+    }
+
+    public int GetYear(){
+        return year;
+    }
+    public void String SetName(String name){
+        this.name=name;
+    }
+
+    public void int SetYear(int year){
+        this.year=year;
+    }
+
+
+}
